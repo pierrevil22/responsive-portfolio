@@ -1,71 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    
 
+<html lang="en”>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body>
-        
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Carden</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="col-sm-9"></div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+<div class="row" id="header">
+    <div class="col-4" id="brand">
+        <h1>Carden Pierre-Vil</h1>
     </div>
-  </nav>
-
-    <div class= container>         
-        
-          <form>
-            <div class="row" id="row-2">
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
-                
-                
-            
-              <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="18"></textarea>
-              </div>
-               
-              </div>
-              
-            </div>  
-              <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    <div class="col-8" id="nav">
+        <a href="index.html"><span>About</span></a>
+        <span>|</span>
+        <a href="contact.html"><span>Contact</span></a>
+        <span>|</span>
+        <a href="portfolio.html"><span>Portfolio</span></a>
     </div>
-
-    <div class="footer">
-      <footer class="card-footer bg-light footer-font-style text-muted footer-position">
-          <p>@copyright</p>
-    </footer>
+</div>
+<div class="row">
+    <div class="col-8">
+        <div id="contact">
+            <h2>Contact</h2>
+            <hr>
+			<form action="#">
+                <span>Name</span><br>
+                <input id="name" type="text" name="name" value="John Smith">
+                <br>
+                <span>Email</span><br>
+                <input id="email" type="text" name="email" value="example@gmail.com">
+                <br>
+                <span>Message</span><br>
+                <input id="message" type="text">
+                <br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-
-    </body>
-    </html>
+    <div class="col-4">
+        <div id="connect">
+            <h3>Connect with Me</h3>
+            <hr>
+            <p>Pierrevil22@yahoo.com</p>
+            <a href="" target="_blank"><img src="" height="51px"/></a>
+            <a href="" target="_blank"><img src="" height="51px"/></a>
+            <a href="" target="_blank"><img src="" height="51px"/></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12" id="footer">
+        <p>@copyright</p>
+    </div> 
+ </div> 
+</body>
+</html>

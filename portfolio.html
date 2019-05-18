@@ -1,103 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en”>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <span class="navbar-brand mb-1 h1">Carden</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="col-sm-9"></div>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div>
-          <p>
-              Portfolio
-          </p>
-      </div>
-      
-      <div class= container>
-          <div class= row>
-              <div class= col-md-4>
-                <div class="card" style="width: 18rem;">
-                    <a class="Physic-game" href=" https://pierrevil22.github.io/Physic-games/" target="_blank"><img src="images/Physic-game.png" class="card-img-top" alt="ing_thumbnail">
+<div class="row" id="header">
+    <div class="col-4" id="brand">
+        <h1>Carden Pierre-Vil</h1>
+    </div>
+    <div class="col-8" id="nav">
+        <a href="index.html"><span>About</span></a>
+        <span>|</span>
+        <a href="contact.html"><span>Contact</span></a>
+        <span>|</span>
+        <a href="portfolio.html"><span>Portfolio</span></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-8">   
+        <div id="portfolio">
+            <h2>Portfolio</h2>
+            <hr>
+                
+            <ul>
+                <li>
+                    <a class="Physic-game" href=" https://pierrevil22.github.io/Physic-games/" height="110px"><img src="assets/images/Physic-game.png" class="card-img-top" >
+                    </a>
+                    <div class="card-body"></div>
+                </li>
+                <li>
+                    <a class="Unit-4-Game" href=" https://pierrevil22.github.io/unit-4-game/" height="110px"><img src="assets/images/unit-4-Game.png" class="card-img-top" >
                     </a>
                     <div class="card-body">
-                      
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class= row>
-            <div class= col-md-4>
-              <div class="card" style="width: 18rem;">
-                  <a class="Unit-4-Game" href=" https://pierrevil22.github.io/unit-4-game/" target="_blank"><img src="images/unit-4-Game.png" class="card-img-top" alt="ing_thumbnail">
-                  </a>
-                  <div class="card-body">
-                    
-                  </div>
-                </div>
-            </div>
+                </li>
+                <li>
+                    <a class="TriviaGame" href=" https://pierrevil22.github.io/TriviaGame/" height="110px"><img src="assets/images/TriviaGame.png" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Wild-Life" href=" https://pierrevil22.github.io/GIPHY-API/" height="110px"><img src="assets/images/Giphy-API.png" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Bar-App" href=" https://marraya.github.io/" height="110px"><img src="assets/images/Bar-App.png" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Bar-App" href=" https://github.com/pierrevil22/liri-node-app" height="110px"><img src="assets/images/liri_node_app.jpg" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Bar-App" href=" https://github.com/pierrevil22/Bamazon" height="110px"><img src="assets/images/Bamazon_app.jpg" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Bar-App" href=" https://infinite-savannah-70417.herokuapp.com/" height="110px"><img src="assets/images/FriendFinder_app.jpg" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Bar-App" href=" https://frozen-chamber-17399.herokuapp.com/" height="110px"><img src="assets/images/Burger_app.jpg" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+                <li>
+                    <a class="Bar-App" href=" https://powerful-lake-85322.herokuapp.com/" height="110px"><img src="assets/images/Project2_app.jpg" class="card-img-top" >
+                    </a>
+                    <div class="card-body">
+                </li>
+            </ul>     
+              
         </div>
-        <div class= row>
-          <div class= col-md-4>
-            <div class="card" style="width: 18rem;">
-                <a class="TriviaGame" href=" https://pierrevil22.github.io/TriviaGame/" target="_blank"><img src="images/TriviaGame.png" class="card-img-top" alt="ing_thumbnail">
-                </a>
-                <div class="card-body">
-                    
-                  </div>
-                </div>
-            </div>
+    </div>
+    <div class="col-4">
+        <div id="connect">
+            <h3>Connect with Me</h3>
+            <hr>
+            <p>Pierrevil22@yahoo.com</p>
+            <a href="" target="_blank"><img src="" height="51px"/></a>
+            <a href="" target="_blank"><img src="" height="51px"/></a>
+            <a href="" target="_blank"><img src="" height="51px"/></a>
         </div>
-        <div class= row>
-          <div class= col-md-4>
-            <div class="card" style="width: 18rem;">
-                <a class="Wild-Life" href=" https://pierrevil22.github.io/GIPHY-API/" target="_blank"><img src="images/Giphy-API.png" class="card-img-top" alt="ing_thumbnail">
-                </a>
-                <div class="card-body">
-                    
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class= row>
-          <div class= col-md-4>
-            <div class="card" style="width: 18rem;">
-                <a class="Bar-App" href=" https://marraya.github.io/" target="_blank"><img src="images/Bar-App.png" class="card-img-top" alt="ing_thumbnail">
-                </a>
-                <div class="card-body">
-                    
-                  </div>
-                </div>
-            </div>
-        </div>
-          
-      </div>
-      <div class="footer">
-        <footer class="card-footer bg-light footer-font-style text-muted footer-position">
-            <p>@copyright</p>
-      </footer>
-      </div>
+    </div> 
+</div>
+<div class="row">
+    <div class="col-12" id="footer">
+        <p>@copyright</p>
+    </div> 
+ </div>     
 </body>
 </html>
