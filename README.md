@@ -4,4 +4,4 @@ pierrevil22.github.io/responsive-portfolio/
 
 About Tab
 
-file:///Users/cardenpierre-vil/Desktop/Pics/portfolio/Image%2010-1-19%20at%209.06%20PM.jpg
+![Image 10-1-19 at 9 06 PM](https://user-images.githubusercontent.com/46546551/66012490-75418900-e495-11e9-8824-8dda3959f2d1.jpg)
