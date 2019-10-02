@@ -1,7 +1,7 @@
 # responsive-portfolio
 Responsive Mobile Friendly Layout using HTML and CSS
 
-pierrevil22.github.io/responsive-portfolio/
+https://pierrevil22.github.io/responsive-portfolio/
 
 ## About Tab is the general front page 
 
